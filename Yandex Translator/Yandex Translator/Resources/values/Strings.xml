@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="Hello">Hello World, Click Me!</string>
+  <string name="ApplicationName">Yandex Translator</string>
+  <string name="YandexApiKey">trnsl.1.1.20170708T113101Z.abe19304b3f99709.15651973473318e10a1b477508c0e582c3563cb4</string>
+</resources>
