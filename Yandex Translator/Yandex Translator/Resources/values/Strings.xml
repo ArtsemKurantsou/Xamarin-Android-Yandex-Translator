@@ -2,5 +2,11 @@
 <resources>
   <string name="Hello">Hello World, Click Me!</string>
   <string name="ApplicationName">Yandex Translator</string>
-  <string name="YandexApiKey">trnsl.1.1.20170708T113101Z.abe19304b3f99709.15651973473318e10a1b477508c0e582c3563cb4</string>
+  <string name="btn_swap_text">Сменить язык</string>
+  <string name="from_text">Русский</string>
+  <string name="from_hint">Введите текст на русском для перевода</string>
+  <string name="to_text">English</string>
+  <string name="to_hint">Here translated text</string>
+  <string name="btn_add_to_fav">Добавить в избранное</string>
+  <string name="btn_translate">Перевести</string>
 </resources>

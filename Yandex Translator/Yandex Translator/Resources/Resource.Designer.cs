@@ -26,6 +26,7 @@ namespace Yandex_Translator
 		
 		public static void UpdateIdValues()
 		{
+			global::OkHttpClient.Resource.String.library_name = global::Yandex_Translator.Resource.String.library_name;
 		}
 		
 		public partial class Attribute
@@ -57,6 +58,40 @@ namespace Yandex_Translator
 			}
 		}
 		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f050005
+			public const int btnAddToFav = 2131034117;
+			
+			// aapt resource value: 0x7f050000
+			public const int btnSwapLngs = 2131034112;
+			
+			// aapt resource value: 0x7f050006
+			public const int btnTranslate = 2131034118;
+			
+			// aapt resource value: 0x7f050002
+			public const int etTextFrom = 2131034114;
+			
+			// aapt resource value: 0x7f050004
+			public const int etTextTo = 2131034116;
+			
+			// aapt resource value: 0x7f050001
+			public const int tvLngFrom = 2131034113;
+			
+			// aapt resource value: 0x7f050003
+			public const int tvLngTo = 2131034115;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
+			{
+			}
+		}
+		
 		public partial class Layout
 		{
 			
@@ -76,14 +111,35 @@ namespace Yandex_Translator
 		public partial class String
 		{
 			
+			// aapt resource value: 0x7f040002
+			public const int ApplicationName = 2130968578;
+			
 			// aapt resource value: 0x7f040001
-			public const int ApplicationName = 2130968577;
+			public const int Hello = 2130968577;
+			
+			// aapt resource value: 0x7f040008
+			public const int btn_add_to_fav = 2130968584;
+			
+			// aapt resource value: 0x7f040003
+			public const int btn_swap_text = 2130968579;
+			
+			// aapt resource value: 0x7f040009
+			public const int btn_translate = 2130968585;
+			
+			// aapt resource value: 0x7f040005
+			public const int from_hint = 2130968581;
+			
+			// aapt resource value: 0x7f040004
+			public const int from_text = 2130968580;
 			
 			// aapt resource value: 0x7f040000
-			public const int Hello = 2130968576;
+			public const int library_name = 2130968576;
 			
-			// aapt resource value: 0x7f040002
-			public const int YandexApiKey = 2130968578;
+			// aapt resource value: 0x7f040007
+			public const int to_hint = 2130968583;
+			
+			// aapt resource value: 0x7f040006
+			public const int to_text = 2130968582;
 			
 			static String()
 			{
