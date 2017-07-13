@@ -8,50 +8,42 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/btn_swap_text" />
-    <LinearLayout
+    <TextView
+        android:id="@+id/tvLngFrom"
+        android:gravity="center"
+        android:text="@string/from_text_ru"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="vertical">
-            <TextView
-                android:id="@+id/tvLngFrom"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="@string/from_text" />
-            <EditText
-                android:id="@+id/etTextFrom"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:hint="@string/from_hint"
-                android:inputType="textPersonName" />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="vertical">
-            <TextView
-                android:id="@+id/tvLngTo"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="@string/to_text" />
-            <EditText
-                android:id="@+id/etTextTo"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:enabled="false"
-                android:hint="@string/to_hint"
-                android:inputType="textPersonName" />
-        </LinearLayout>
-    </LinearLayout>
+        android:layout_marginTop="10dp" />
+    <EditText
+        android:id="@+id/etTextFrom"
+        android:ems="10"
+        android:hint="@string/from_hint_ru"
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp" />
+    <TextView
+        android:id="@+id/tvLngTo"
+        android:gravity="center"
+        android:text="@string/to_text_eng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" />
+    <TextView
+        android:id="@+id/tvTextTo"
+        android:ems="10"
+        android:enabled="false"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:hint="@string/to_hint_eng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp" />
     <Button
         android:id="@+id/btnAddToFav"
         android:layout_width="match_parent"
@@ -63,4 +55,9 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="@string/btn_translate" />
+    <Button
+        android:text="@string/btn_favorits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnShowFavs" />
 </LinearLayout>

@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="Hello">Hello World, Click Me!</string>
+  <string name="translator">Переводчик</string>
   <string name="ApplicationName">Yandex Translator</string>
+  <string name="need_to_translate">Сперва нажмите на кнопку "Перевести"</string>
+  <string name="traslation_added">Добавлено в словарь</string>
   <string name="btn_swap_text">Сменить язык</string>
-  <string name="from_text">Русский</string>
-  <string name="from_hint">Введите текст на русском для перевода</string>
-  <string name="to_text">English</string>
-  <string name="to_hint">Here translated text</string>
+  <string name="from_text_ru">Русский</string>
+  <string name="from_hint_ru">Введите текст на русском для перевода</string>
+  <string name="from_text_eng">English</string>
+  <string name="from_hint_eng">Text to translate</string>
+  <string name="to_text_ru">Русский</string>
+  <string name="to_hint_ru">Переведённый текст</string>
+  <string name="to_text_eng">English</string>
+  <string name="to_hint_eng">Here translated text</string>
   <string name="btn_add_to_fav">Добавить в избранное</string>
   <string name="btn_translate">Перевести</string>
+  <string name="btn_favorits">Показать словарь</string>
+  <string name="btn_select_all">Выбрать всё</string>
+  <string name="btn_delete_selected">Удалить выбранное</string>
+  <string name="dictionary">Словарь</string>
 </resources>
